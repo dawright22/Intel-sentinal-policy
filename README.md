@@ -1,1 +1,1 @@
-# Intel-sentinal-policy
+# Intel-sentinel-policy
