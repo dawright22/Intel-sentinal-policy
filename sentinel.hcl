@@ -1,17 +1,18 @@
 module "tfplan-functions" {
-    source = "../common-functions/tfplan-functions/tfplan-functions.sentinel"
+    source = "https://raw.githubusercontent.com/hashicorp/terraform-guides/master/governance/third-generation/common-functions/tfplan-functions/tfplan-functions.sentinel"
+    
 }
 
 module "tfstate-functions" {
-    source = "../common-functions/tfstate-functions/tfstate-functions.sentinel"
+    source = "https://raw.githubusercontent.com/hashicorp/terraform-guides/master/governance/third-generation/common-functions/tfplan-functions/tfplan-functions.sentinel"
 }
 
 module "tfconfig-functions" {
-    source = "../common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+    source = "https://raw.githubusercontent.com/hashicorp/terraform-guides/master/governance/third-generation/common-functions/tfplan-functions/tfplan-functions.sentinel"
 }
 
 module "azure-functions" {
-    source = "./azure-functions/azure-functions.sentinel"
+    source = "  https://github.com/hashicorp/terraform-guides/tree/master/governance/third-generation/azure/azure-functions/azure-functions.sentinel"
 }
 
 policy "restrict-vm-image-id" {
