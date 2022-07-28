@@ -12,7 +12,7 @@ module "tfconfig-functions" {
 }
 
 module "azure-functions" {
-    source = "  https://github.com/hashicorp/terraform-guides/tree/master/governance/third-generation/azure/azure-functions/azure-functions.sentinel"
+    source = "./azure-functions/azure-functions.sentinel"
 }
 
 policy "restrict-vm-image-id" {
